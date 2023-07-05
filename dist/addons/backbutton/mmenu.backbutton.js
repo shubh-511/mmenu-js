@@ -8,7 +8,7 @@ export default function () {
     }
     //	Extend options.
     const options = extend(this.opts.backButton, OPTIONS);
-    const _menu = `#${this.node.menu.id}`;
+    const _menu = `#${this.node.menu?.id}`;
     //	Close menu
     if (options.close) {
         let states = [];
