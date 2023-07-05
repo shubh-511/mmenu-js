@@ -287,7 +287,7 @@ export default class Mmenu {
             };
         });
         //	Store the API in the HTML node for external usage.
-        this.node?.menu['mmApi'] = this.API;
+        this.node??.menu['mmApi'] = this.API;
     }
     /**
      * Bind the hooks specified in the options (publisher).
